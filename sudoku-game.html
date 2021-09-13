@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sudoku-styles.css">
+    <title>Sudoku Recursor Solver</title>
+</head>
+<body>
+    <div class="container">
+        
+        <!-- Heading of the Game-->
+        <div class="heading">
+            <h1 class="game-title">Sudoku</h1>
+            <p>Enter your numbers in the Sudoku Grid</p>
+        </div>  
+        
+        <!-- The Sudoku Grid along with the buttons-->
+        <div class="canvas">
+            <div class="sudoku"></div>
+            
+            <div class="solve-btn">Solve</div>
+            
+            <div class="fill-numbers">
+                <button class="restart-btn">Clear Grid</button>
+                <div class="number">1</div>
+                <div class="number">2</div>
+                <div class="number">3</div>
+                <div class="number">4</div>
+                <div class="number">5</div>
+                <div class="number">6</div>
+                <div class="number">7</div>
+                <div class="number">8</div>
+                <div class="number">9</div>
+                <div class="number delete-val">del</div>
+            </div>
+            
+            <div class="speed-control">
+
+                <div class="speed-btn">Slow</div>
+                <div class="speed-btn active">Medium</div>
+                <div class="speed-btn">Fast</div>
+            </div>
+        </div> 
+          
+    </div>
+    <script src="sudoku-work.js"></script>
+</body>
+</html>
